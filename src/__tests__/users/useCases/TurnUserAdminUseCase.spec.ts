@@ -1,6 +1,6 @@
+import { UsersRepository } from "../../../modules/users/repositories/implementations/UsersRepository";
 import { v4 } from "uuid";
 
-import { UsersRepository } from "../../../modules/users/repositories/implementations/UsersRepository";
 import { TurnUserAdminUseCase } from "../../../modules/users/useCases/turnUserAdmin/TurnUserAdminUseCase";
 
 describe("TurnUserAdminUseCase", () => {
